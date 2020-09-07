@@ -105,7 +105,7 @@ button:focus {
 .underline-heading {
   content: '';
   display: block;
-  background-image: url("/img/Prostokat_2.png");
+  background-image: url("../img/Prostokat_2.png");
   background-repeat: no-repeat;
   background-position: bottom center;
   height: 80px;
@@ -114,7 +114,7 @@ button:focus {
 .underline-heading-left {
   content: '';
   display: block;
-  background-image: url("/img/Prostokat_2.png");
+  background-image: url("../img/Prostokat_2.png");
   background-repeat: no-repeat;
   background-position: bottom 1px left;
   height: 70px;
@@ -123,8 +123,8 @@ button:focus {
 /* header */
 
 .header-bg {
-  background: url("/img/photo.png") center no-repeat, -o-linear-gradient(315deg, rgba(21, 20, 26, 0.4) 0%, rgba(21, 20, 26, 0) 100%), #15141a;
-  background: url("/img/photo.png") center no-repeat, linear-gradient(-225deg, rgba(21, 20, 26, 0.4) 0%, rgba(21, 20, 26, 0) 100%), #15141a;
+  background: url("../img/photo.png") center no-repeat, -o-linear-gradient(315deg, rgba(21, 20, 26, 0.4) 0%, rgba(21, 20, 26, 0) 100%), #15141a;
+  background: url("../img/photo.png") center no-repeat, linear-gradient(-225deg, rgba(21, 20, 26, 0.4) 0%, rgba(21, 20, 26, 0) 100%), #15141a;
   background-size: cover, cover, cover;
   min-height: 640px;
   padding: 0 !important;
@@ -165,7 +165,7 @@ header .navbar-brand span {
 }
 
 .underline:hover {
-  background-image: url("/img/Prostokat_2.png");
+  background-image: url("../img/Prostokat_2.png");
   background-repeat: no-repeat;
   background-position: bottom center;
 }
@@ -256,19 +256,19 @@ header .navbar-brand span {
 }
 
 #cup {
-  background: url("/img/Cup.png") no-repeat left 1px center;
+  background: url("../img/Cup.png") no-repeat left 1px center;
 }
 
 #res {
-  background: url("/img/Mouse.png") no-repeat left 3px center;
+  background: url("../img/Mouse.png") no-repeat left 3px center;
 }
 
 #ret {
-  background: url("/img/Energy.png") no-repeat left 3px center;
+  background: url("../img/Energy.png") no-repeat left 3px center;
 }
 
 #ez {
-  background: url("/img/Speedometer.png") no-repeat left center;
+  background: url("../img/Speedometer.png") no-repeat left center;
 }
 
 /* customize */
@@ -290,8 +290,8 @@ header .navbar-brand span {
 
 .slider {
   min-height: 640px;
-  background: url("/img/Warstwa_8.png") center no-repeat, -o-linear-gradient(315deg, rgba(21, 20, 26, 0.4) 0%, rgba(21, 20, 26, 0) 100%), #15141a;
-  background: url("/img/Warstwa_8.png") center no-repeat, linear-gradient(-225deg, rgba(21, 20, 26, 0.4) 0%, rgba(21, 20, 26, 0) 100%), #15141a;
+  background: url("../img/Warstwa_8.png") center no-repeat, -o-linear-gradient(315deg, rgba(21, 20, 26, 0.4) 0%, rgba(21, 20, 26, 0) 100%), #15141a;
+  background: url("../img/Warstwa_8.png") center no-repeat, linear-gradient(-225deg, rgba(21, 20, 26, 0.4) 0%, rgba(21, 20, 26, 0) 100%), #15141a;
   background-size: cover;
 }
 
