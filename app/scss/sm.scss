@@ -1,0 +1,164 @@
+                                                            /* sm */
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .phone-img, .phone {
+        display: none !important;
+    }
+
+    .row {
+        padding: 0 15px;
+    }
+
+    .navbar {
+        padding-right: 30px;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        right: 10px;
+        top: 78px;
+        z-index: 9997;
+        background-color: $dark-grey;
+        border-top: 2px solid $blue;
+        li {
+            background-color: rgba($color: #fff, $alpha: .2);
+            margin: 5px 0;
+            width: 160px;
+            z-index: 9998;
+        }
+    }
+
+    h2 {
+        height: 70px !important;
+    }
+
+    .underline-heading-left {
+        height: 110px !important;
+    }
+
+    .card-deck {
+        justify-content: center;
+    }
+
+    .card {
+        flex: 0 0 45% !important;
+        margin-bottom: 30px !important;
+
+        .card-body {
+            padding: 0 45px;
+        }
+    }
+
+    .cta-secondary {
+        .row {
+            margin: -0 !important;
+        }
+    }
+
+    .features .row, .details .row, .pricing .row, .button-container .row, .customize .row, .contacts .row, .slider .row  {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .details {
+        height: 520px !important;
+
+        .row {
+            padding-top: 0 !important;
+        }
+
+        .col-6 {
+            display: none !important;
+        }
+    }
+
+    .img-col {
+        display: none !important
+    }
+
+    .features {
+        .caption {
+            margin-bottom: 50px;
+        }
+    }
+
+    .feature-box {
+        padding: 0 !important;
+        margin-bottom: 30px;
+    }
+
+    .customize {
+        height: 400px !important;
+        padding-top: 50px;
+    }
+
+    .customize .full-col {
+        margin-left: 0 !important;
+    }
+
+    .slider {
+        .owl-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    .cta-secondary {
+        height: 180px !important;
+        align-items: baseline;
+
+        .row {
+            height: 120px;
+        }
+
+        .col-sm-4 {
+            margin: 0 !important;
+            flex-direction: column;
+            flex-wrap: wrap;
+            height: 120px;
+
+            a.btn {
+                margin: 0 !important;
+            }
+        }
+    }
+
+    .contacts {
+        height: 800px;
+        .col-sm-8 {
+            height: 150px !important;
+        }
+    }
+
+    .contacts {
+
+        form {
+            margin-top: 0 !important;
+            width: 85% !important;
+            height: 460px;
+            padding: 20px 10px !important;
+
+            .col-sm-12 {
+                padding: 0 !important;
+                align-items: center !important;
+            }
+    
+            input {
+                width: 380px !important;
+                margin-bottom: 10px;
+            }
+    
+            textarea {
+                height: 140px !important;
+                width: 380px !important;
+            }
+            
+            .button-container {
+                width: 400px !important;
+            }
+        }
+    }  
+}

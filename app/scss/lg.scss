@@ -1,0 +1,116 @@
+                                                            /* lg */
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .navbar {
+        padding-right: 30px !important;
+    }
+
+    header {
+        .cta.row {
+            padding: 15px !important;
+        }
+    }
+
+    .details {
+        height: 620px !important;
+
+        img {
+            height: 500px;
+        }
+    }
+
+    .row {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .customize {
+        height: 450px;
+        .row {
+            justify-content: space-evenly;
+        }
+
+        img {
+            height: 350px !important;
+        }
+    }
+
+    .card {
+        margin-bottom: 20px !important;
+
+        .card-body {
+            padding: 10px 5px !important;
+        }
+
+        a.btn {
+            margin-top: 0 !important;
+        }
+    }
+
+    .cta-secondary {
+        .btn {
+            width: 140px;
+            display: inline-block;
+            margin: 0 !important;
+            padding: 5px 0 !important;
+        }
+
+        .float-right {
+            margin-left: 15px !important;
+        }
+    }
+
+    .features p {
+        width: 230px;
+    }
+
+    .footer-icons {
+        margin-top: 50px !important;
+        height: 20px !important;
+    }
+
+    .slider {
+        .owl-stage-outer {
+            padding: 0 30px;
+
+            p {
+                width: 450px;
+                margin: 0 !important;
+            }
+        }
+    }
+
+    .cta-secondary {
+        .btn {
+            padding-top: 14px !important;
+        }
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .navbar {
+        margin-left: 0 !important;
+    }
+}
+
+@media (max-width: 991.98px) {
+
+    .navbar-collapse {
+        position: absolute;
+        right: 0;
+        top: 70px;
+        z-index: 9997;
+        background-color: $dark-grey;
+        border-top: 2px solid $blue;
+        li {
+            background-color: rgba($color: #fff, $alpha: .2);
+            margin: 5px 0;
+            width: 160px;
+            z-index: 9998;
+        }
+    }
+
+}

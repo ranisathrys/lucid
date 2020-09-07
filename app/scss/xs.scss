@@ -1,0 +1,307 @@
+                                                            /* xs */
+
+
+@media (max-width: 575.98px) {
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .cta, .customize, .details {
+        p {
+            width: 260px !important;
+        }
+    }
+
+    .row {
+        margin-right: 0 !important;
+        padding: 0 30px !important;
+    }
+
+    .navbar-toggler-icon {
+        padding-top: 2px !important
+    }
+
+    .cta .cta-text {
+        height: 480px;
+    }
+
+    .cta-buttons {
+        display: flex;
+    }
+
+    .details {
+        height: 520px !important;
+
+        .row {
+            padding: 0 30px !important;
+        }
+
+        .col-6 {
+            display: none !important;
+        }
+    }
+
+    .img-col {
+        display: none !important
+    }
+
+    form {
+        width: 300px !important;
+        textarea {
+            width: 20px !important;
+        }
+    }
+
+    p {
+        width: 300px !important;
+    }
+
+    .navbar-toggler {
+        width: 40px !important;
+    }
+
+    .navbar-collapse {
+        li {
+            background-color: rgba($color: #fff, $alpha: .2);
+            margin: 5px 0;
+            padding-top: 5px;
+            width: 200px;
+            height: 50px;
+            font-size: 18px;
+            text-transform: uppercase;
+            z-index: 9998;
+        }
+    }
+
+    button {
+        width: 135px !important;
+        padding: 0 !important;
+    }
+    .phone-img, .phone, .phone-start {
+        display: none !important;
+    }
+
+    .card-deck {
+        justify-content: center;
+    }
+
+    .card {
+        flex: 1 0 60% !important;
+        margin-bottom: 30px !important;
+
+        .card-body {
+            padding: 0 45px;
+        }
+    }
+
+    .customize {
+        .full-col {
+            margin: 0 !important;
+        }
+    }
+
+    .features .row, .details .row, .pricing .row, .button-container .row, .customize .row, .contacts .row, .slider .row  {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .customize .full-col {
+        margin-left: 0 !important;
+    }
+
+    .cta-secondary {
+        .row {
+            margin: -0 !important;
+            .col {
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+        }
+    }
+
+    .details {
+
+        height: 600px !important;
+        .row {
+            justify-content: center;
+        }
+
+        .col-sm-12 {
+            padding: 0 !important;
+        }
+
+        h6 {
+            margin-top: 0 !important;
+        }
+    }
+
+    .features {
+        padding-top: 30px !important;
+        .underline-heading {
+           margin-bottom: 50px !important;
+        }
+
+        .feature-box {
+            p {
+                width: 230px !important;
+            }
+        }
+    }
+
+    .slider {
+        height: 600px;
+        .owl-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .owl-dots {
+            width: 310px !important;
+            margin-top: 80px !important;
+        }
+
+        .owl-carousel {
+            height: 430px !important;
+        }
+    }
+
+    .cta-secondary {
+        height: 200px !important;
+        align-items: baseline;
+
+        .row {
+            height: 120px;
+        }
+
+        .col-xs-6 {
+            margin: 0 !important;
+            flex-direction: column !important;
+            flex-wrap: wrap;
+            height: 120px;
+            font-size: 24px !important;
+
+            a.btn {
+                margin: 0 !important;
+                width: 120px;
+                margin-bottom: 10px !important;
+            }
+        }
+    }
+
+    .customize, .details, .pricing {
+        padding-top: 48px !important; 
+    }
+
+    .customize {
+        height: 450px;
+        .underline-heading-left {
+            height: 100px !important;
+        }
+    }
+
+    .slider {
+        .row {
+            padding-bottom: 0 !important;
+        }
+    }
+
+    .pricing {
+        .row {
+            padding: 0 15px !important;
+        }
+    }
+
+    .contacts {
+        height: 1025px;
+        .row {
+            margin-bottom: 0 !important;
+            padding-bottom: 0 !important;
+
+            .col-xs-12 {
+                margin-bottom: 35px !important;
+                img {
+                    margin-bottom: 10px !important;
+                }
+            }
+        }
+
+        .caption {
+            margin-bottom: 30px;
+        }
+
+    }
+
+    .pricing {
+        .card-deck {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            flex: 0 0 80% !important;
+            margin-bottom: 20px !important;
+
+            .card-body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 45px 0 !important;
+                p {
+                    width: 230px !important;
+                }
+            }
+        }
+    }
+
+    .contacts {
+        form {
+            margin-top: 0 !important;
+            width: 300px !important;
+            height: 460px;
+            padding: 20px 10px !important; 
+            
+            .form-row {
+                display: flex !important;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .col-sm-12 {
+                padding: 0 !important;
+                align-items: center !important;
+            }
+    
+            input {
+                width: 230px !important;
+                height: 40px;
+                margin-bottom: 10px;
+            }
+    
+            textarea {
+                height: 140px !important;
+                width: 230px !important;
+            }
+            
+            .button-container {
+                width: 300px !important;
+
+                .offset-9 {
+                    margin: 0 !important;
+                    max-width: 100% !important;
+                }
+            }
+        }
+    }
+}

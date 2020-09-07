@@ -1,0 +1,172 @@
+                                                            /* md */
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    h2 {
+        height: 70px !important;
+    }
+
+    .underline-heading-left {
+        height: 110px !important;
+    }
+
+
+    .row {
+        padding: 0 15px !important;
+    }
+
+    .phone {
+        height: 500px;
+        img {
+            height: 480px !important;
+        }
+    }
+
+    .cta {
+        .cta-text {
+            height: 420px;
+        }
+    }
+
+    .details {
+        height: 600px !important;
+        
+        .row {
+            padding-top: 0 !important;
+        }
+
+        img {
+            height: 400px;
+        }
+
+        .col-6 {
+            align-items: center;
+        }
+
+        
+        
+    }
+
+    .features {
+        .caption {
+            margin-bottom: 30px;
+        }
+
+        .feature-box {
+            margin: 20px 0;
+        }
+    }
+
+    .customize {
+        height: 450px !important;
+
+        .img-col {
+            height: 400px;
+        }
+
+        img {
+            height: 250px;
+            margin-top: 100px
+        }
+    }
+
+    .contacts  {
+
+        form {
+            width: 70% !important;
+            height: 340px;
+            padding: 10px !important;
+    
+            input {
+                width: 220px !important;
+            }
+    
+            textarea {
+                width: 230px !important;
+            }
+    
+            .button-container {
+                width: 475px !important;
+            }
+        }
+
+    }
+
+    
+
+    .navbar {
+        width: 100%;
+    }
+
+    .features {
+        padding: 50px 0 0 !important;
+    }
+
+    .slider {
+        .flex-column {
+            .caption {
+                margin: 0 !important;
+            }
+        }
+
+        .owl-carousel {
+            margin-top: 70px;
+        }
+
+        .owl-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+
+        .owl-dots {
+            margin-top: 100px !important;
+        }
+    }
+    
+    .cta-secondary {
+        .row {
+            align-items: center !important;
+            a.btn {
+                font-size: 12px !important;
+                padding-left: 2px !important;
+                padding-right: 2px !important;
+            }
+        }
+    }
+
+    .pricing {
+        padding-top: 50px !important;
+        height: 1250px;
+
+        .card-deck {
+            margin-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            flex: 0 0 40% !important;
+            margin-bottom: 20px !important;
+    
+            .card-body {
+                padding: 0 45px;
+            }
+        }
+    }
+
+    .contacts {
+        .caption {
+            margin-bottom: 30px;
+        }
+    }
+
+    .features .row, .details .row, .pricing .row, .button-container .row, .customize .row, .contacts .row, .slider .row, .cta-secondary .row  {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
